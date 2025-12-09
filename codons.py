@@ -8,6 +8,5 @@ def create_codon_dict(file_path):
     codon = row.strip().split('\t')[0]
     acid = row.strip().split('\t')[2]
     dict[codon] = acid
-  return dict
-
+  return dict
 
